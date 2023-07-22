@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="container">
+        <div class="todo">
+            <h2>To Do List <img src="images/todo.png"></h2>
+            <h4>Completed Tasks :</h4><h4 class="count" id="completed">0</h4>
+            <h4>Total Tasks :</h4><h4 class="count" id="total">0</h4>
+            <h4>Pending Tasks :</h4><h4 class="count" id="pending">0</h4>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add Your Task">
+                <button id="add" onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container">
+            </ul>
+         </div>
+     </div>
+     <script src="script.js"></script>
+</body>
+</html>
